@@ -1,0 +1,13 @@
+.vscode
+.env
+node_modules
+npm-debug.log
+.github
+secrets
+test/data/*
+test/result/*
+test/curlTest.bat
+.axoCover/*
+.DS_Store
+.sfdx
+.dssd
