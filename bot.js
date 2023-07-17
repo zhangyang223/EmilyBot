@@ -6,6 +6,10 @@ const { DeezerPlugin } = require("@distube/deezer");
 const { YtDlpPlugin } = require("@distube/yt-dlp");
 const config = require("./config.js");
 const fs = require("fs");
+const dotenv = require('dotenv');
+
+dotenv.config();
+
 const client = new Client({
   partials: [
     Partials.Channel, // for text channel
